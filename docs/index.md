@@ -21,7 +21,18 @@ user@laptop:~/axs$ axs
 DefaultKernel{}
 ```
 
-## How-to guides
+## Working environment
 
-The dependencies of various components are managed through axs entries. To start with, entries can be found in ~/axs/core_collection. When programs are being executed for the first time, new entries will be automatically stored in work collection. By default, they are located at ~/work_collection.
+AXS has been tested and supported on the following 64-bit systems:
 
+- MacOS
+- Ubuntu
+- Windows
+
+Supported python version
+
+- 3.6
+- 3.7
+- 3.8 (trouble shooting for M1 Mac)
+- 3.9
+- 3.10 (Developing)
