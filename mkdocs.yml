@@ -18,8 +18,8 @@ nav:
   - Home: 
     - 'Home': index.md
     - 'How-to guides': guides.md
-  - Capstone Project:
-      - 'Overview': final_project/overview.md
+  # - Capstone Project:
+  #     - 'Overview': final_project/overview.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
