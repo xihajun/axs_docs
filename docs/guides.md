@@ -103,5 +103,26 @@ axs byquery compute , square_root , area=81
 This will compile the `square_root_c` tool and run it with the `area` parameter set to `81`.
 
 
-## Run Python Code
+## Run Python Code: Q&A
 
+By default, we have a bert model in our example case
+
+```{bash, eval=F}
+axs byname bert_demo_torch_py , run --bert_data_context_path=../my_context.txt --bert_data_questions_path=.../my_questions.txt
+```
+
+Output
+
+```{bash, eval=F}
+Torch execution device: CPU
+Loading BERT model 'bert-large-uncased-whole-word-masking-finetuned-squad' from the HuggingFace transformers' hub ...
+Vocabulary size: 30522
+
+Context taken from './my_context.txt':
+The docker export command does not export the contents of volumes associated with the container. If a volume is mounted on top of an existing directory in the container, docker export will export the contents of the underlying directory, not the contents of the volume.
+----------------------------------------------------------------
+Questions taken from './my_questions.txt':
+
+Question_1: What does docker export do?
+Answer_1: export the contents of the underlying directory , not the contents of the volume
+```
