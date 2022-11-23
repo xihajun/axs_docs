@@ -1,5 +1,9 @@
-# Mkdocs & bookdown Template 
+# AXS Docs
 
+## Draft
+- [ ] Add [Draft here](./docs/draft)
+- [ ] Add new tab: developer session [here](./mkdocs.yml)
+- Access the [docs](https://krai.github.io/axs_docs/)
 
 ## mkdocs
 
